@@ -1,0 +1,42 @@
+name: ios-verify
+
+# Builds, launches and screenshots OneNative's generated iOS projects on a free macOS runner.
+#   samples/<name>/       must build and launch (job fails otherwise)
+#   expect-fail/<name>/   deliberately broken output; the job passes only if it FAILS
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.find.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: find
+        run: |
+          items=""
+          for d in samples/*/; do [ -d "$d" ] && items="$items{\"dir\":\"${d%/}\",\"expect\":\"pass\"},"; done
+          for d in expect-fail/*/; do [ -d "$d" ] && items="$items{\"dir\":\"${d%/}\",\"expect\":\"fail\"},"; done
+          echo "matrix={\"include\":[${items%,}]}" >> "$GITHUB_OUTPUT"
+
+  verify:
+    needs: prepare
+    if: ${{ needs.prepare.outputs.matrix != '{"include":[]}' }}
+    runs-on: macos-latest
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJson(needs.prepare.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build, launch, screenshot
+        run: bash scripts/verify-ios.sh "${{ matrix.dir }}" "${{ matrix.expect }}"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: verify-${{ strategy.job-index }}-${{ matrix.expect }}
+          path: artifacts/
+          if-no-files-found: ignore

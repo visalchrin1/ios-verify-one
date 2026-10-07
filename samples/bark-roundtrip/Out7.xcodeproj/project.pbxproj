@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0000000000000000000000A4 /* Out7App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000A3 /* Out7App.swift */; };
+		0000000000000000000000A6 /* AppShellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000A5 /* AppShellView.swift */; };
+		0000000000000000000000A8 /* CryptoSettingControllerScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000A7 /* CryptoSettingControllerScreenView.swift */; };
+		0000000000000000000000AA /* EmptyRecentMessagesViewScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000A9 /* EmptyRecentMessagesViewScreenView.swift */; };
+		0000000000000000000000AC /* HomeViewControllerScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000AB /* HomeViewControllerScreenView.swift */; };
+		0000000000000000000000AE /* MediumRecentMessagesViewScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000AD /* MediumRecentMessagesViewScreenView.swift */; };
+		0000000000000000000000B0 /* MessageListViewControllerScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000AF /* MessageListViewControllerScreenView.swift */; };
+		0000000000000000000000B2 /* MessageSettingsViewControllerScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000B1 /* MessageSettingsViewControllerScreenView.swift */; };
+		0000000000000000000000B4 /* NewServerViewControllerScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000B3 /* NewServerViewControllerScreenView.swift */; };
+		0000000000000000000000B6 /* SectionViewControlleriPadScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000B5 /* SectionViewControlleriPadScreenView.swift */; };
+		0000000000000000000000B8 /* ServerListViewControllerScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000B7 /* ServerListViewControllerScreenView.swift */; };
+		0000000000000000000000BA /* SmallRecentMessagesViewScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000B9 /* SmallRecentMessagesViewScreenView.swift */; };
+		0000000000000000000000BC /* SoundsViewControllerScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000BB /* SoundsViewControllerScreenView.swift */; };
+		0000000000000000000000BE /* TimeBadgeViewScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000BD /* TimeBadgeViewScreenView.swift */; };
+		0000000000000000000000C0 /* WidgetEntryViewScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000BF /* WidgetEntryViewScreenView.swift */; };
+		0000000000000000000000C2 /* WidgetHeaderViewScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000C1 /* WidgetHeaderViewScreenView.swift */; };
+		0000000000000000000000C4 /* AlertHostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000C3 /* AlertHostView.swift */; };
+		0000000000000000000000C6 /* ResolveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000C5 /* ResolveView.swift */; };
+		0000000000000000000000C8 /* NotYetPortedScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000C7 /* NotYetPortedScreenView.swift */; };
+		0000000000000000000000CA /* BarkThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000C9 /* BarkThemeView.swift */; };
+		0000000000000000000000CC /* CryptoSettingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000CB /* CryptoSettingViewModel.swift */; };
+		0000000000000000000000CE /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000CD /* HomeViewModel.swift */; };
+		0000000000000000000000D0 /* MessageListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000CF /* MessageListViewModel.swift */; };
+		0000000000000000000000D2 /* MessageSettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000D1 /* MessageSettingsViewModel.swift */; };
+		0000000000000000000000D4 /* NewServerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000D3 /* NewServerViewModel.swift */; };
+		0000000000000000000000D6 /* ServerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000D5 /* ServerListViewModel.swift */; };
+		0000000000000000000000D8 /* SoundsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000D7 /* SoundsViewModel.swift */; };
+		0000000000000000000000DA /* ViewModelTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000D9 /* ViewModelTypes.swift */; };
+		0000000000000000000000DC /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000DB /* Algorithm.swift */; };
+		0000000000000000000000DE /* BarkApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000DD /* BarkApi.swift */; };
+		0000000000000000000000E0 /* CryptoSettingViewModelModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000DF /* CryptoSettingViewModelModels.swift */; };
+		0000000000000000000000E2 /* ErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000E1 /* ErrorExtension.swift */; };
+		0000000000000000000000E4 /* HomeViewModelModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000E3 /* HomeViewModelModels.swift */; };
+		0000000000000000000000E6 /* MessageListSkeletonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000E5 /* MessageListSkeletonView.swift */; };
+		0000000000000000000000E8 /* MessageListViewModelModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000E7 /* MessageListViewModelModels.swift */; };
+		0000000000000000000000EA /* MessageSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000E9 /* MessageSection.swift */; };
+		0000000000000000000000EC /* MessageSettingsViewModelModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000EB /* MessageSettingsViewModelModels.swift */; };
+		0000000000000000000000EE /* NewServerViewModelModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000ED /* NewServerViewModelModels.swift */; };
+		0000000000000000000000F0 /* NotificationContentProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000EF /* NotificationContentProcessor.swift */; };
+		0000000000000000000000F2 /* PushResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000F1 /* PushResponse.swift */; };
+		0000000000000000000000F4 /* SectionViewModeliPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000F3 /* SectionViewModeliPad.swift */; };
+		0000000000000000000000F6 /* ServerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000F5 /* ServerListViewController.swift */; };
+		0000000000000000000000F8 /* ServerListViewModelModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000F7 /* ServerListViewModelModels.swift */; };
+		0000000000000000000000FA /* SimpleEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000F9 /* SimpleEntry.swift */; };
+		0000000000000000000000FC /* SoundsViewModelModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000FB /* SoundsViewModelModels.swift */; };
+		0000000000000000000000FE /* WidgetConfigurationIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000FD /* WidgetConfigurationIntent.swift */; };
+		000000000000000000000100 /* WidgetHistoryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000FF /* WidgetHistoryModels.swift */; };
+		000000000000000000000102 /* Compat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000101 /* Compat.swift */; };
+		000000000000000000000104 /* Http.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000103 /* Http.swift */; };
+		000000000000000000000106 /* Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000000105 /* Rx.swift */; };
+		0000000000000000000000A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0000000000000000000000A1 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0000000000000000000000A0 /* Out7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Out7.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0000000000000000000000A3 /* Out7App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Out7App.swift; sourceTree = "<group>"; };
+		0000000000000000000000A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0000000000000000000000A5 /* AppShellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppShellView.swift; sourceTree = "<group>"; };
+		0000000000000000000000A7 /* CryptoSettingControllerScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoSettingControllerScreenView.swift; sourceTree = "<group>"; };
+		0000000000000000000000A9 /* EmptyRecentMessagesViewScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyRecentMessagesViewScreenView.swift; sourceTree = "<group>"; };
+		0000000000000000000000AB /* HomeViewControllerScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewControllerScreenView.swift; sourceTree = "<group>"; };
+		0000000000000000000000AD /* MediumRecentMessagesViewScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumRecentMessagesViewScreenView.swift; sourceTree = "<group>"; };
+		0000000000000000000000AF /* MessageListViewControllerScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListViewControllerScreenView.swift; sourceTree = "<group>"; };
+		0000000000000000000000B1 /* MessageSettingsViewControllerScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageSettingsViewControllerScreenView.swift; sourceTree = "<group>"; };
+		0000000000000000000000B3 /* NewServerViewControllerScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewServerViewControllerScreenView.swift; sourceTree = "<group>"; };
+		0000000000000000000000B5 /* SectionViewControlleriPadScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionViewControlleriPadScreenView.swift; sourceTree = "<group>"; };
+		0000000000000000000000B7 /* ServerListViewControllerScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerListViewControllerScreenView.swift; sourceTree = "<group>"; };
+		0000000000000000000000B9 /* SmallRecentMessagesViewScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallRecentMessagesViewScreenView.swift; sourceTree = "<group>"; };
+		0000000000000000000000BB /* SoundsViewControllerScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsViewControllerScreenView.swift; sourceTree = "<group>"; };
+		0000000000000000000000BD /* TimeBadgeViewScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeBadgeViewScreenView.swift; sourceTree = "<group>"; };
+		0000000000000000000000BF /* WidgetEntryViewScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetEntryViewScreenView.swift; sourceTree = "<group>"; };
+		0000000000000000000000C1 /* WidgetHeaderViewScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetHeaderViewScreenView.swift; sourceTree = "<group>"; };
+		0000000000000000000000C3 /* AlertHostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHostView.swift; sourceTree = "<group>"; };
+		0000000000000000000000C5 /* ResolveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResolveView.swift; sourceTree = "<group>"; };
+		0000000000000000000000C7 /* NotYetPortedScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotYetPortedScreenView.swift; sourceTree = "<group>"; };
+		0000000000000000000000C9 /* BarkThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarkThemeView.swift; sourceTree = "<group>"; };
+		0000000000000000000000CB /* CryptoSettingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoSettingViewModel.swift; sourceTree = "<group>"; };
+		0000000000000000000000CD /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		0000000000000000000000CF /* MessageListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListViewModel.swift; sourceTree = "<group>"; };
+		0000000000000000000000D1 /* MessageSettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageSettingsViewModel.swift; sourceTree = "<group>"; };
+		0000000000000000000000D3 /* NewServerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewServerViewModel.swift; sourceTree = "<group>"; };
+		0000000000000000000000D5 /* ServerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerListViewModel.swift; sourceTree = "<group>"; };
+		0000000000000000000000D7 /* SoundsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsViewModel.swift; sourceTree = "<group>"; };
+		0000000000000000000000D9 /* ViewModelTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTypes.swift; sourceTree = "<group>"; };
+		0000000000000000000000DB /* Algorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
+		0000000000000000000000DD /* BarkApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarkApi.swift; sourceTree = "<group>"; };
+		0000000000000000000000DF /* CryptoSettingViewModelModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoSettingViewModelModels.swift; sourceTree = "<group>"; };
+		0000000000000000000000E1 /* ErrorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorExtension.swift; sourceTree = "<group>"; };
+		0000000000000000000000E3 /* HomeViewModelModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelModels.swift; sourceTree = "<group>"; };
+		0000000000000000000000E5 /* MessageListSkeletonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListSkeletonView.swift; sourceTree = "<group>"; };
+		0000000000000000000000E7 /* MessageListViewModelModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageListViewModelModels.swift; sourceTree = "<group>"; };
+		0000000000000000000000E9 /* MessageSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageSection.swift; sourceTree = "<group>"; };
+		0000000000000000000000EB /* MessageSettingsViewModelModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageSettingsViewModelModels.swift; sourceTree = "<group>"; };
+		0000000000000000000000ED /* NewServerViewModelModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewServerViewModelModels.swift; sourceTree = "<group>"; };
+		0000000000000000000000EF /* NotificationContentProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationContentProcessor.swift; sourceTree = "<group>"; };
+		0000000000000000000000F1 /* PushResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushResponse.swift; sourceTree = "<group>"; };
+		0000000000000000000000F3 /* SectionViewModeliPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionViewModeliPad.swift; sourceTree = "<group>"; };
+		0000000000000000000000F5 /* ServerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerListViewController.swift; sourceTree = "<group>"; };
+		0000000000000000000000F7 /* ServerListViewModelModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerListViewModelModels.swift; sourceTree = "<group>"; };
+		0000000000000000000000F9 /* SimpleEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleEntry.swift; sourceTree = "<group>"; };
+		0000000000000000000000FB /* SoundsViewModelModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsViewModelModels.swift; sourceTree = "<group>"; };
+		0000000000000000000000FD /* WidgetConfigurationIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetConfigurationIntent.swift; sourceTree = "<group>"; };
+		0000000000000000000000FF /* WidgetHistoryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetHistoryModels.swift; sourceTree = "<group>"; };
+		000000000000000000000101 /* Compat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compat.swift; sourceTree = "<group>"; };
+		000000000000000000000103 /* Http.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Http.swift; sourceTree = "<group>"; };
+		000000000000000000000105 /* Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rx.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00000000000000000000010F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000000000000000000000108 = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000010A /* Sources */,
+				000000000000000000000109 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00000000000000000000010A /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000000000010B /* Out7 */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		00000000000000000000010B /* Out7 */ = {
+			isa = PBXGroup;
+			children = (
+				0000000000000000000000A3 /* Out7App.swift */,
+				0000000000000000000000A1 /* Assets.xcassets */,
+				00000000000000000000010C /* Screens */,
+			);
+			path = Out7;
+			sourceTree = "<group>";
+		};
+		00000000000000000000010C /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				0000000000000000000000A5 /* AppShellView.swift */,
+				0000000000000000000000A7 /* CryptoSettingControllerScreenView.swift */,
+				0000000000000000000000A9 /* EmptyRecentMessagesViewScreenView.swift */,
+				0000000000000000000000AB /* HomeViewControllerScreenView.swift */,
+				0000000000000000000000AD /* MediumRecentMessagesViewScreenView.swift */,
+				0000000000000000000000AF /* MessageListViewControllerScreenView.swift */,
+				0000000000000000000000B1 /* MessageSettingsViewControllerScreenView.swift */,
+				0000000000000000000000B3 /* NewServerViewControllerScreenView.swift */,
+				0000000000000000000000B5 /* SectionViewControlleriPadScreenView.swift */,
+				0000000000000000000000B7 /* ServerListViewControllerScreenView.swift */,
+				0000000000000000000000B9 /* SmallRecentMessagesViewScreenView.swift */,
+				0000000000000000000000BB /* SoundsViewControllerScreenView.swift */,
+				0000000000000000000000BD /* TimeBadgeViewScreenView.swift */,
+				0000000000000000000000BF /* WidgetEntryViewScreenView.swift */,
+				0000000000000000000000C1 /* WidgetHeaderViewScreenView.swift */,
+				0000000000000000000000C3 /* AlertHostView.swift */,
+				0000000000000000000000C5 /* ResolveView.swift */,
+				0000000000000000000000C7 /* NotYetPortedScreenView.swift */,
+				0000000000000000000000C9 /* BarkThemeView.swift */,
+				0000000000000000000000CB /* CryptoSettingViewModel.swift */,
+				0000000000000000000000CD /* HomeViewModel.swift */,
+				0000000000000000000000CF /* MessageListViewModel.swift */,
+				0000000000000000000000D1 /* MessageSettingsViewModel.swift */,
+				0000000000000000000000D3 /* NewServerViewModel.swift */,
+				0000000000000000000000D5 /* ServerListViewModel.swift */,
+				0000000000000000000000D7 /* SoundsViewModel.swift */,
+				0000000000000000000000D9 /* ViewModelTypes.swift */,
+				0000000000000000000000DB /* Algorithm.swift */,
+				0000000000000000000000DD /* BarkApi.swift */,
+				0000000000000000000000DF /* CryptoSettingViewModelModels.swift */,
+				0000000000000000000000E1 /* ErrorExtension.swift */,
+				0000000000000000000000E3 /* HomeViewModelModels.swift */,
+				0000000000000000000000E5 /* MessageListSkeletonView.swift */,
+				0000000000000000000000E7 /* MessageListViewModelModels.swift */,
+				0000000000000000000000E9 /* MessageSection.swift */,
+				0000000000000000000000EB /* MessageSettingsViewModelModels.swift */,
+				0000000000000000000000ED /* NewServerViewModelModels.swift */,
+				0000000000000000000000EF /* NotificationContentProcessor.swift */,
+				0000000000000000000000F1 /* PushResponse.swift */,
+				0000000000000000000000F3 /* SectionViewModeliPad.swift */,
+				0000000000000000000000F5 /* ServerListViewController.swift */,
+				0000000000000000000000F7 /* ServerListViewModelModels.swift */,
+				0000000000000000000000F9 /* SimpleEntry.swift */,
+				0000000000000000000000FB /* SoundsViewModelModels.swift */,
+				0000000000000000000000FD /* WidgetConfigurationIntent.swift */,
+				0000000000000000000000FF /* WidgetHistoryModels.swift */,
+				000000000000000000000101 /* Compat.swift */,
+				000000000000000000000103 /* Http.swift */,
+				000000000000000000000105 /* Rx.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		000000000000000000000109 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0000000000000000000000A0 /* Out7.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00000000000000000000010D /* Out7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000000000000000000114 /* Build configuration list for PBXNativeTarget "Out7" */;
+			buildPhases = (
+				00000000000000000000010E /* Sources */,
+				00000000000000000000010F /* Frameworks */,
+				000000000000000000000110 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Out7;
+			productName = Out7;
+			productReference = 0000000000000000000000A0 /* Out7.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		000000000000000000000107 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					00000000000000000000010D = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 000000000000000000000111 /* Build configuration list for PBXProject "Out7" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 000000000000000000000108;
+			productRefGroup = 000000000000000000000109 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00000000000000000000010D /* Out7 */,
+			);
+		};
+/* End PBXProject section */
+/* Begin PBXResourcesBuildPhase section */
+		000000000000000000000110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0000000000000000000000A2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+/* Begin PBXSourcesBuildPhase section */
+		00000000000000000000010E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0000000000000000000000A4 /* Out7App.swift in Sources */,
+				0000000000000000000000A6 /* AppShellView.swift in Sources */,
+				0000000000000000000000A8 /* CryptoSettingControllerScreenView.swift in Sources */,
+				0000000000000000000000AA /* EmptyRecentMessagesViewScreenView.swift in Sources */,
+				0000000000000000000000AC /* HomeViewControllerScreenView.swift in Sources */,
+				0000000000000000000000AE /* MediumRecentMessagesViewScreenView.swift in Sources */,
+				0000000000000000000000B0 /* MessageListViewControllerScreenView.swift in Sources */,
+				0000000000000000000000B2 /* MessageSettingsViewControllerScreenView.swift in Sources */,
+				0000000000000000000000B4 /* NewServerViewControllerScreenView.swift in Sources */,
+				0000000000000000000000B6 /* SectionViewControlleriPadScreenView.swift in Sources */,
+				0000000000000000000000B8 /* ServerListViewControllerScreenView.swift in Sources */,
+				0000000000000000000000BA /* SmallRecentMessagesViewScreenView.swift in Sources */,
+				0000000000000000000000BC /* SoundsViewControllerScreenView.swift in Sources */,
+				0000000000000000000000BE /* TimeBadgeViewScreenView.swift in Sources */,
+				0000000000000000000000C0 /* WidgetEntryViewScreenView.swift in Sources */,
+				0000000000000000000000C2 /* WidgetHeaderViewScreenView.swift in Sources */,
+				0000000000000000000000C4 /* AlertHostView.swift in Sources */,
+				0000000000000000000000C6 /* ResolveView.swift in Sources */,
+				0000000000000000000000C8 /* NotYetPortedScreenView.swift in Sources */,
+				0000000000000000000000CA /* BarkThemeView.swift in Sources */,
+				0000000000000000000000CC /* CryptoSettingViewModel.swift in Sources */,
+				0000000000000000000000CE /* HomeViewModel.swift in Sources */,
+				0000000000000000000000D0 /* MessageListViewModel.swift in Sources */,
+				0000000000000000000000D2 /* MessageSettingsViewModel.swift in Sources */,
+				0000000000000000000000D4 /* NewServerViewModel.swift in Sources */,
+				0000000000000000000000D6 /* ServerListViewModel.swift in Sources */,
+				0000000000000000000000D8 /* SoundsViewModel.swift in Sources */,
+				0000000000000000000000DA /* ViewModelTypes.swift in Sources */,
+				0000000000000000000000DC /* Algorithm.swift in Sources */,
+				0000000000000000000000DE /* BarkApi.swift in Sources */,
+				0000000000000000000000E0 /* CryptoSettingViewModelModels.swift in Sources */,
+				0000000000000000000000E2 /* ErrorExtension.swift in Sources */,
+				0000000000000000000000E4 /* HomeViewModelModels.swift in Sources */,
+				0000000000000000000000E6 /* MessageListSkeletonView.swift in Sources */,
+				0000000000000000000000E8 /* MessageListViewModelModels.swift in Sources */,
+				0000000000000000000000EA /* MessageSection.swift in Sources */,
+				0000000000000000000000EC /* MessageSettingsViewModelModels.swift in Sources */,
+				0000000000000000000000EE /* NewServerViewModelModels.swift in Sources */,
+				0000000000000000000000F0 /* NotificationContentProcessor.swift in Sources */,
+				0000000000000000000000F2 /* PushResponse.swift in Sources */,
+				0000000000000000000000F4 /* SectionViewModeliPad.swift in Sources */,
+				0000000000000000000000F6 /* ServerListViewController.swift in Sources */,
+				0000000000000000000000F8 /* ServerListViewModelModels.swift in Sources */,
+				0000000000000000000000FA /* SimpleEntry.swift in Sources */,
+				0000000000000000000000FC /* SoundsViewModelModels.swift in Sources */,
+				0000000000000000000000FE /* WidgetConfigurationIntent.swift in Sources */,
+				000000000000000000000100 /* WidgetHistoryModels.swift in Sources */,
+				000000000000000000000102 /* Compat.swift in Sources */,
+				000000000000000000000104 /* Http.swift in Sources */,
+				000000000000000000000106 /* Rx.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		000000000000000000000112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		000000000000000000000113 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		000000000000000000000115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				"INFOPLIST_KEY_UISupportedInterfaceOrientations~ipad" = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onenative.out7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		000000000000000000000116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				"INFOPLIST_KEY_UISupportedInterfaceOrientations~ipad" = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onenative.out7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+/* Begin XCConfigurationList section */
+		000000000000000000000111 /* Build configuration list for PBXProject "Out7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000000000112 /* Debug */,
+				000000000000000000000113 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		000000000000000000000114 /* Build configuration list for PBXNativeTarget "Out7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				000000000000000000000115 /* Debug */,
+				000000000000000000000116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 000000000000000000000107 /* Project object */;
+}
