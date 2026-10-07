@@ -37,7 +37,10 @@ for rt,devs in sorted(d.items(), reverse=True):
         -derivedDataPath "build/$name" CODE_SIGNING_ALLOWED=NO build \
         >"$art/xcodebuild.log" 2>&1; then
       result="fail"; reason="xcodebuild failed"
-      grep -E "error:" "$art/xcodebuild.log" | head -20
+      # Surface the first compiler errors as workflow annotations (readable without downloading logs).
+      grep -E "error:" "$art/xcodebuild.log" | sed 's#^.*/samples/[^/]*/##' | sort -u | head -30 \
+        | while IFS= read -r line; do echo "::error::${line:0:400}"; done
+      echo "::error::total error lines: $(grep -c 'error:' "$art/xcodebuild.log")"
     else
       app="$(find "build/$name/Build/Products" -maxdepth 2 -name '*.app' | head -1)"
       bundle="$(/usr/libexec/PlistBuddy -c 'Print :CFBundleIdentifier' "$app/Info.plist")"
