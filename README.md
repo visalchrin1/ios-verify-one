@@ -9,3 +9,10 @@ It contains generated output for open-source sample apps, nothing else. OneNativ
 - Each run uploads `xcodebuild.log`, a launch screenshot and a result line as artifacts.
 
 Files here are written by OneNative's `tools/ios-verify/Publish-IosOutput.ps1`; do not edit them by hand.
+
+## Per-screen captures (ticket 18)
+
+A sample published with `Publish-IosOutput.ps1 -Capture` (OneNative `--ui-capture`) has a `<Name>UITests` folder. After the launch check, `verify-ios.sh` runs
+`xcodebuild test`: the UI test opens each screen (`-OneNativeScreen <name>`) and writes `<screen>.png` and `<screen>.tree.json` (`{"text","tappable","children"}`)
+into `artifacts/<sample>/screens/`. A missing or one-colour screenshot fails the job. Download the workflow artifact, then compare against the Android captures of the
+same screens with OneNative's parity command (`OneNative parity <android-captures> <ios-captures>`; see `tools/uikit-acceptance` for the Android side).
