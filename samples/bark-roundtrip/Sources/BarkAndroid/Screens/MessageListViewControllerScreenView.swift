@@ -47,12 +47,7 @@ struct MessageListViewControllerScreenView: View {
                     EmptyView()
                 }
             }
-                .onChange(of: listState) {
-                    snapshotFlow { (listState.layoutInfo.visibleItemsInfo.lastOrNull()?.index ?? -1) to listState.layoutInfo.totalItemsCount }
-                    .filter { (last, total) -> total > 0 && last >= total - 2 }
-                    .distinctUntilChanged()
-                    .collect { tableViewLoadMore.accept(Unit) }
-                }
+                // declined: `snapshotFlow` has no SwiftUI counterpart yet (`LaunchedEffect` was not converted)
         }
             .task {
                 let output = viewModel.transform(input: MessageListViewModel.Input(initialLoad: initialLoadRelay.asDriver(), refresh: refreshRelay.asDriver(), loadMore: tableViewLoadMore.asObservable().asDriver(), itemDelete: tableViewDeleted.asObservable().filterIsInstance<MessageListCellItem>().asDriver(), itemDeleteInGroup: itemDeleteInGroupRelay.asDriver(), delete: clearRelay.asDriver(), groupToggleTap: emptyFlow(), searchText: snapshotFlow { searchBarText.value as! String? }.asObservable(), reload: reloadRelay.asDriver()))
